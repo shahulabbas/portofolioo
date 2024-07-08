@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #031225;
+    position: relative;
+    min-width: 1000px;
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    position: sticky;
+   
+}
+.container1{
+    
+    display: flex;
+    width: 750px;
+    height: 50px;
+     font-size: 20px;
+     font-weight:bold;
+    gap: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: .2;
+    box-shadow: 0 0 50px white;
+    
+
+}
+.container1>.box>a{
+    text-decoration: none;
+    color: black;
+
+}
+.box{
+     cursor: pointer;
+     
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box1{
+        
+        text-align:justify;
+        float: left;
+        margin-top: 80px;
+        margin-left: 180px;
+         
+     }
+     p{
+        font-size: 50px;
+        color:yellow;
+     }
+     h1{
+        color: yellow; 
+        overflow: hidden;
+        font-size: 3.9rem;
+        font-weight: 600;
+        white-space: nowrap;
+        animation: typing 4s steps(40,end) infinite;
+        border-right:3px solid orange;
+     }
+     @keyframes typing{
+        from{
+            width: 0%;
+        }
+        to{
+            width: 75%;
+            text-shadow: 10px 10px 100px red;
+        }
+     }
+     .container2{
+            display:flex;
+            
+            
+        }
+        .box1>h3{
+            color: white;
+            width: 550px;
+            line-height: 2;
+        }
+        .box2>img{
+             width: 300px;
+             height: 300px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-top: 90px;
+            margin-left: 250px;
+            border: 10px solid white;
+            
+            animation: toggle 3s ease-in-out infinite;
+        }
+        @keyframes toggle{
+            from{
+                
+                    box-shadow: 0 0 70px red;
+            
+        }
+
+            to{
+                
+                    box-shadow: 0 0 70px blue;
+            }
+        
+    }
+        .container3{
+        width: 300px;
+        height: 50px;
+        margin-top: 40px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        }
+        .container3>a>i{
+         font-size: 30px;
+        color: white;
+        cursor: pointer;
+        }
+        .box1>button{
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            margin: 40px 50px;
+            font-size: 15px;
+            font-weight: bold;
+            background: yellow;
+            box-shadow: 0 0 40px yellow;
+            border: none;
+            cursor: pointer;
+        }
+        .box1>button:hover{
+            transform: scale(1.1);
+            transition: 1s ease-out;
+        }
+        .container4{
+            display: flex;
+            justify-content: center;
+        }
+        .container5{
+            display: flex;
+            width: 1150px;
+            height: 500px;
+            
+            justify-content:space-around;
+            align-items: center;
+            margin: 20px 160px;
+        }
+        .box3{
+            width: 350px;
+            height: 450px;
+            cursor: pointer; 
+            border-radius: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 0 20px white;
+            
+        }
+        .box3:hover{
+            transform: translateY(-30px);
+            transition: 0.5s ease-in-out;
+        }
+        .fafa{
+            font-size: 25px;
+            color: yellow;
+            margin: 20px 30px;
+        }
+       .box3>h3{
+        color: white;
+        font-size: 25px;
+        margin-left: 30px;
+       }
+       .box3>h4{
+        width: 270px;
+        text-align: justify;
+        color: white;
+        margin-left: 40px;
+        margin-top: 20px;
+       }
+       .container6>p{
+        text-align: center;
+       }
+       .container7{
+        width: 750px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        background: none;
+        justify-content: space-between;
+        margin: 50px 350px;
+       }
+       .container7>img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+        line-height: 20px;
+       }
+       .container7>img:hover{
+        transform: scale(1.1);
+        transition: 1s ease-in-out ;
+       }
+       .container8{
+        width: 100%;
+        height: 400px;
+        background-color: black;
+       }
+       .container8>h3{
+        font-size: 50px;
+        color: yellow;
+        margin-left: 200px;
+        padding-top: 100px;
+       }
+       .box5>i>a{
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+      
+       }
+       .box5>i{
+        color: white;
+        font-size: 30px;
+        padding-left: 600px;
+        gap: 30px;
+        text-decoration: none;
+        
+       }
+       .box6{
+        width: 300px;
+        height: 60px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: 550px;
+       }
+       .box6>a>i{
+        color: yellow;
+        font-size: 40px;
+        cursor: pointer;
+        text-decoration: none;
+       }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+        <div class="box"><a href="https://shahulabbas.github.io/portfolio/">HOME</a></div>
+        <div class="box"><a href="#section2">ABOUT</a></div>
+        <div class="box"><a href="#section3">SKILLS</a></div>
+        <div class="box"><a href="https://docs.google.com/document/d/1wUP69TcHcF5fu_mLxHml6BV3MABqoC7z-Roy62WW81s/edit?usp=sharing">RESUME</a></div>
+        <div class="box"><a href="#section4">CONTACT</a></div>
+        <div class="box"><a href="#section5">EDUCATION</a></div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box1" id="section2">
+            <p>Hello,it's me</p>
+            <h1>Shaik  Shahul</h1>
+            <h3>I'am a dedicated software developer with a passion for creating
+                innovative digital solutions. with a stronmg foundation in programming 
+                and a knock for problem-solving,i specialize in crafting robust software
+                applications that drive efficiency and user satisfaction.
+            </h3>
+
+            <div class="container3">
+           <a href="https://www.facebook.com/profile.php?id=100082089519622"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_the_ruler_44/"><i class="fa fa-instagram"></i></a>
+             <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQZhKxZJmtRbMzPrmTTNWslkDvbzZJMNdVZpVpXQVGclPtbShzMwkWjZpCdnSZLRNDPSfg"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+              
+                </div>
+                <button>More About Me</button>
+    </div>
+    <div class="box2">
+        <img src="https://github.com/shahulabbas/portfolio/blob/main/WhatsApp%20Image%202024-07-08%20at%2017.33.31.jpeg?raw=true">
+    </div>
+</div>
+<div class="container4" id="section5">
+ <p>My Education</p>
+</div>
+<div class="container5">
+    <div class="box3">
+       <i class="fa fa-graduation-cap fafa" aria-hidden="true"></i>
+        <h3>Diploma</h3>
+        <h4>I complete my diploma in  Cumputer Science Engineering [CSE] from Andhra Pradesh state board of technical education and training [SBTET]
+            with a commendable 92.07% scaled marks graduated in the acadamic year 2022-2025 batch. allumini of the established faculty of polytechnic
+            kuppam. I capped with comprehensive knowledge, practicals and logical thinking of coding evaluation with a strong accadamic foundation.
+        </h4>
+        <i class="fa fa-sign-out fafa" aria-hidden="true"></i>
+
+    </div>
+    <div class="box3 ">
+        <i class="fa fa-graduation-cap fafa" aria-hidden="true"></i>
+        <h3>SSC 10<sup>th</sup></h3>
+        <h4>I scared a commendable  81.16% aggregatee in the SSC Board examinations from march in Z P HIGH SCHOOL SODAM with a solid accadamic foundation
+            established during secondery education. I Emberked on a primary continues warning. the way further accadamic and personal growth in subsequent
+            pre results. 
+        </h4><br><br>
+        <i class="fa fa-sign-out fafa" aria-hidden="true"></i>
+
+    </div>
+    
+</div>
+<div class="container6" id="section3">
+    <p>My Skills</p>
+</div>
+<div class="container7">
+    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/html-2752158-2284975.png?f=webp&w=256" width="200px" height="200px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png" width="200px" height="200px">
+    <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" width="200px" height="200px">
+    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png" width="200px" height="200px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1853px-C_Programming_Language.svg.png" width="200px" height="200px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EuOn8aE909Xpl4pZ50041l0pF8HBozffGQ&s" width="200px" height="200px">
+</div>
+<br><br><hr>
+<div class="container8" id="section4">
+    <h3>Contact-Me</h3>
+    <div class="box5">
+        <i class="fa fa-envelope-o" aria-hidden="true"><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQZhKxZJmtRbMzPrmTTNWslkDvbzZJMNdVZpVpXQVGclPtbShzMwkWjZpCdnSZLRNDPSfg">abbu786baby@gmail.com</a></i><br><br>
+        <i class="fa fa-phone" aria-hidden="true"><a href="tel:9381869392">9381969392</a></i>
+
+    </div>
+    <div class="box6">
+       <a href="https://www.instagram.com/_the_ruler_44/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100082089519622"><i class="fa fa-facebook"></i></a>
+        <a href="Follow the Shaik Shahul channel on WhatsApp: https://whatsapp.com/channel/0029Va4Fstt65yDKVZ8JTv1e"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+       <a href="https://www.youtube.com/channel/UCY3E5IOuKrufCq73eHlTBSA"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+    </div>
+</div>
+</body>
+</html>
